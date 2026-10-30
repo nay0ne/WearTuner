@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wear Tuner</string>
+    <string name="tap_to_tune">Tap to tune</string>
+    <string name="permission_needed">Microphone access needed</string>
+    <string name="permission_tap">Tap to allow</string>
+    <string name="no_note">--</string>
+    <string name="settings_tuning">Tuning</string>
+    <string name="settings_algorithm">Pitch detection</string>
+    <string name="settings_reference">Reference pitch</string>
+    <string name="settings_a4_format">A4 = %1$d Hz</string>
+    <string name="settings_haptics">Haptic feedback</string>
+    <string name="settings_haptics_summary">Click when in tune</string>
+    <string name="chromatic_hint">Nearest note</string>
+    <string name="tap_next_string">In tune · tap for next</string>
+</resources>

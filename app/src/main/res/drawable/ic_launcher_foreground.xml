@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Tuner gauge matching the in-app colours: red ends, amber shoulders, green centre, needle
+         pointing at in tune. Drawn at 1x and scaled about the centre to fill the 66dp safe zone. -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1.35"
+        android:scaleY="1.35">
+        <path
+            android:pathData="M34.95,53 A22,22 0 0 1 73.05,53"
+            android:strokeWidth="6"
+            android:strokeColor="#FFFF5252"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M43,44.95 A22,22 0 0 1 65,44.95"
+            android:strokeWidth="6"
+            android:strokeColor="#FFFFB300" />
+        <path
+            android:pathData="M49.43,42.48 A22,22 0 0 1 58.57,42.48"
+            android:strokeWidth="6"
+            android:strokeColor="#FF3DDC84" />
+        <path
+            android:pathData="M54,64 L54,49"
+            android:strokeWidth="3"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M50,64 A4,4 0 1 0 58,64 A4,4 0 1 0 50,64 Z"
+            android:fillColor="#FFFFFFFF" />
+    </group>
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Extends Theme.DeviceDefault; black window background avoids a flash on launch. -->
+    <style name="Theme.WearTuner" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+</resources>
